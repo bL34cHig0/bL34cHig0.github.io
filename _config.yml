@@ -44,7 +44,17 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
 
-google_site_verification: googledb1c3f7f0de175d4 # fill in to your verification string
+google_site_verification: 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-36KYDHDQG0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-36KYDHDQG0');
+</script>
+ # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
