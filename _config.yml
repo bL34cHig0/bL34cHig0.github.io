@@ -16,7 +16,7 @@ timezone:
 
 title: bL34cHig0 # the main title
 
-tagline: A documentation site for my pentest, ctf, and open source notes # it will display as the sub-title
+tagline: A documentation site on my pentest, ctf, and open source notes # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A journal on cybersecurity, ctf, and open source
