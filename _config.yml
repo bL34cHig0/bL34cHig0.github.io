@@ -19,7 +19,7 @@ title: bL34cHig0 # the main title
 tagline: A documentation site for my pentest, ctf, and open source notes # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A journal on cybersecurity, ctf, and open source
+  A journal on cybersecurity, ctf, hackthebox, tryhackme, and open source
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
