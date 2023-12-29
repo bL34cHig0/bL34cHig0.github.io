@@ -5,6 +5,8 @@ categories: [Notes, Windows, Privilege Escalation]
 tags: [windows,privilege escalation,manual checks,enumeration,]
 ---
 
+![Windows](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1df7b8d9-3471-49df-8745-44ddebbade6e/d1gdhfz-bc79238c-ed39-485e-aab4-24f9958d5243.jpg/v1/fit/w_800,h_500,q_70,strp/windows_splash_by_zaif06_d1gdhfz-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTAwIiwicGF0aCI6IlwvZlwvMWRmN2I4ZDktMzQ3MS00OWRmLTg3NDUtNDRkZGViYmFkZTZlXC9kMWdkaGZ6LWJjNzkyMzhjLWVkMzktNDg1ZS1hYWI0LTI0Zjk5NThkNTI0My5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.U_r4sVOR_i_On-TXkEzu17H5NwQwfG5YiFlm78xNhtw){: .center-image }
+
 # Manual Checks
 
 A list of useful commands to perform manual privilege escalation on `Windows` operating system. 
