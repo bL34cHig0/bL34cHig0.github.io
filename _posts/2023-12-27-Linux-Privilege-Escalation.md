@@ -5,6 +5,8 @@ categories: [Notes, Linux, Privilege Escalation]
 tags: [Linux,privilege escalation,manual checks,enumeration,]
 ---
 
+![Linux](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/b78bf35b-d636-4498-9b11-3f4dcc49741c/d9kviti-c2158834-7da8-4a6d-8f99-919b63451ae6.png/v1/fill/w_1192,h_670,q_70,strp/touchterminal_by_superfahd_d9kviti-pre.jpg){: .center-image }
+
 # Manual Checks
 
 A list of useful commands to perform manual privilege escalation on `Linux` operating system.
