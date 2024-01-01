@@ -159,6 +159,68 @@ netstat -ano
 net share
 ```
 
+## EoP - Processes Enumeration and Tasks
+
+### Windows OS
+
+> What processes are running ?
+
+```terminal
+tasklist /v
+```
+
+```terminal
+net start
+```
+
+```terminal
+sc query
+```
+
+```powershell
+Get-Service
+```
+
+```powershell
+Get-Process
+```
+
+```powershell
+Get-WmiObject -Query "Select * from Win32_Process" | where {$_.Name -notlike "svchost*"} | Select Name, Handle, @{Label="Owner";Expression={$_.GetOwner().User}} | ft -AutoSize
+```
+
+> Processes running as "system"
+
+```terminal
+tasklist /v /fi "username eq system"
+```
+
+> Know if powershell is available
+
+```powershell
+REG QUERY "HKLM\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine" /v PowerShellVersion
+```
+
+> List installed programs
+
+```powershell
+Get-ChildItem 'C:\Program Files', 'C:\Program Files (x86)' | ft Parent,Name,LastWriteTime
+```
+
+```powershell
+Get-ChildItem -path Registry::HKEY_LOCAL_MACHINE\SOFTWARE | ft Name
+```
+
+> Enumerate scheduled tasks
+
+```terminal
+schtasks /query /fo LIST 2>nul | findstr TaskName
+```
+
+```powershell
+Get-ScheduledTask | where {$_.TaskPath -notlike "\Microsoft*"} | ft TaskName,TaskPath,State
+```
+
 ## IIS Web config
 
 ```powershell
