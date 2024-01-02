@@ -51,7 +51,7 @@ There are tools and websites to discover and verify clients' email addresses. So
 
 When gathering information from breached credentials, we should look out for potential **repeat offenders** (users that use the same username more than once as their credential). 
 
-**Credential stuffing** is when we collect account credentials (typically **usernames** or **email addresses** and the corresponding **passwords**) from data breah, and then use these credentials to gain access to user accounts on other systems. We can also make modifications to the passwords like changing some characters to upper or lower cases.
+**Credential stuffing** is when we collect account credentials (typically **usernames** or **email addresses** and the corresponding **passwords**) from data breach, and then use these credentials to gain access to user accounts on other systems. We can also make modifications to the passwords like changing some characters to upper or lower cases.
 
 ### Hunting Breached Credentials
 
