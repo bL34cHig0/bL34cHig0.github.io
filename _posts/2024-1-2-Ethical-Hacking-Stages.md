@@ -38,7 +38,7 @@ Furthermore, we should look for **Subdomains**, then carry out `Fingerprinting` 
 
 ### Discovering Email Addresses
 
-There are tools and websites to discover and verify clients' email addresses. Sign up to these tools and websites with a new email address. Use a vague **username** for the new email address. Some are:
+There are tools and websites to discover and verify clients' email addresses. Some are:
 
 - [Hunter.io](https://hunter.io/) 
 - [Clearbit](https://clearbit.com/resources/tools/connect) : it has to be used with google chrome. To download the chrome extension for clearbit, search for **Clearbit Connect** on google.
