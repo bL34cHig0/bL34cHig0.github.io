@@ -19,7 +19,7 @@ On the otherhand, Active reconnaissance is when we use tools such as `Nmap`, `Ni
 
  It has two types, `Physical` and `Social`. Physical means actually going on site and doing a physical engagement while Social, is for example, doing a phishing assessment.
 
-- **Location Information**: Satellite images, Drone recon, Building lawet (badge readers, break areas, security, fencing)
+- **Location Information**: Satellite images, Drone recon, Building layout (badge readers, break areas, security, fencing)
 
 - **Job Information**: Employees (name, job title, phone number, manager, etc.), Pictures (badge photos, desk photos, computer photos, etc.)
 
