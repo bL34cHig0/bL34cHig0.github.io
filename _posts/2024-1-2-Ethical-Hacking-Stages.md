@@ -146,6 +146,14 @@ Is when we use tools such as **Nmap**, **Nikto** or **Nessus** to scan actively 
 
 Enumeration means looking at items and digging into them to see if anything of value can be found. Ex: we found a web server running on port 80, open and its running on something like Apache 1.2, and then we research on google if there are any exploits on Apache 1.2.
 
+We can use an active/passive ARP reconnaissance tool called `netdiscover` to detect all **hosts/machines** on a given network.
+
+```bash
+netdiscover -r <ip-address/subnet>
+```
+
+![netdiscover](/assets/img/netdiscover.png)
+
 ## Exploitation / Gaining Access
 
 Is when we run an exploit against a client or vulnerable service to gain access to a machine, network, or an environment. Once we have that access, the process starts to repeat and we perform scanning & enumeration again.
