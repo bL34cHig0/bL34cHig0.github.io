@@ -138,7 +138,7 @@ For example, we can use the `site` operator with **-www** flag to search for sub
 
 We can use platforms like **Linkedin** or **Twitter** to find useful information about our target by checking the `photo/images` page to look for employee badges in the pictures posted or checking the `people` page on Linkedin to find targets such as IT or C-Suite personnel. And a good way to find badges is to utilize social media. 
 
-**Note**: Use a `sock puppet` account when trying to gather information information a target.
+**Note**: Use a `sock puppet` account when trying to gather information a target.
 
 ## Scanning & Enumeration
 
