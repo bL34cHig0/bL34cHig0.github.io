@@ -3,6 +3,7 @@ title: Reverse Shell Cheatsheet
 date: 2024-1-1 
 categories: [Notes, Pentest]
 tags: [reverse shell,xterm,bash,python,php,netcat,perl,interactive,tty,shell]
+comments: false
 ---
 
 # Gaining Access

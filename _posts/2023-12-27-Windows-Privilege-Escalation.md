@@ -3,6 +3,7 @@ title: Windows Privilege Escalation
 date: 2023-12-27 
 categories: [Notes, Windows, Privilege Escalation]
 tags: [windows,privilege escalation,manual checks,enumeration,]
+comments: false
 ---
 
 ![Windows](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/619dc3c5-cc51-40f7-908c-48b7043757be/dbb2bsj-084d6cf4-4203-4904-aa43-20e9468f8d08.png/v1/fit/w_640,h_400,q_70,strp/windows_2_03_by_gustavovidalalves_dbb2bsj-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDAwIiwicGF0aCI6IlwvZlwvNjE5ZGMzYzUtY2M1MS00MGY3LTkwOGMtNDhiNzA0Mzc1N2JlXC9kYmIyYnNqLTA4NGQ2Y2Y0LTQyMDMtNDkwNC1hYTQzLTIwZTk0NjhmOGQwOC5wbmciLCJ3aWR0aCI6Ijw9NjQwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.W65nMzrDd3LPla_jWw3KQ0lx5YVwQWETZtG2G3x7C_U){: .center-image }

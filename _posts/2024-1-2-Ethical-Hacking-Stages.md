@@ -3,7 +3,6 @@ title: 5 Stages of Ethical Hacking
 date: 2024-1-2
 categories: [Notes, Pentest]
 tags: [methodology,information gathering,reconnaissance,scanning,enumeration,exploitation,maintaining access,covering tracks]
-comments: 
 ---
 
 ![Stages](https://www.eccouncil.org/cybersecurity-exchange/wp-content/uploads/2022/09/5-phases.png)
