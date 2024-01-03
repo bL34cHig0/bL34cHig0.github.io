@@ -128,7 +128,11 @@ Burp Suite is a Web proxy, which means that it has the capability of interceptin
 
 ### Google Fu
 
-Utilizing [google search operators](https://ahrefs.com/blog/google-advanced-search-operators/) can help optimize and narrow down our search in finding subdomains as well as in gathering information on the web. 
+Utilizing [google search operators](https://ahrefs.com/blog/google-advanced-search-operators/) can help optimize and narrow down our search in finding subdomains as well as in gathering information on the web.
+
+For example, we can use the `site` operator with **-www** flag to search for subdomains on google.
+
+![Tesla](image.png)
 
 ### Utilizing Social Media
 
