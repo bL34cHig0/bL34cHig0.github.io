@@ -132,7 +132,7 @@ Utilizing [google search operators](https://ahrefs.com/blog/google-advanced-sear
 
 For example, we can use the `site` operator with **-www** flag to search for subdomains on google.
 
-![Tesla](image.png)
+![tesla](/assets/img/tesla.png)
 
 ### Utilizing Social Media
 
