@@ -17,6 +17,20 @@ order: 4
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
 
+## 📕 Technical Writing
+
+<!-- BLOG-POST-LIST:START -->
+- [Steganography: Hiding Messages in Plain Sight](https://medium.com/@bl34chchig0/steganography-hiding-messages-in-plain-sight-d237ac8097b3)
+- [Social Engineering #2: Recognizing and Defending against common Phishing attacks](https://cysed.org/ncsam23-social-engineering-2/)
+- [Social Engineering #1: The Sneaky Tactics Targeting Everyday People](https://cysed.org/ncsam23-social-engineering-1/)
+- [OSI Model](https://medium.com/@bl34chchig0/osi-model-understanding-isos-conceptual-framework-for-networking-b8c11d3676a6)
+- [Hack Your Way into Cybersecurity](https://medium.com/@bl34chchig0/hack-your-way-into-cybersecurity-mastering-the-basics-with-free-resources-courses-46adc787f063)
+- [Mastering Active Directory Part 2](https://medium.com/@bl34chchig0/mastering-active-directory-a-step-by-step-guide-to-building-your-ultimate-lab-environment-part-2-50b6a36f61e6)
+- [Mastering Active Directory Part 1](https://medium.com/@bl34chchig0/mastering-active-directory-a-step-by-step-guide-to-building-your-ultimate-lab-environment-part-1-9e99e85da384)
+<!-- BLOG-POST-LIST:END -->
+
+➡️ [more blog posts...](https://medium.com/@bl34chchig0/)
+
 ## RESUME
 
 ```plaintext
