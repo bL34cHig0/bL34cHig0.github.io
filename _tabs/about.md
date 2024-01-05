@@ -10,7 +10,7 @@ order: 4
 
 ## Hi there, I'm Habeeb!
 
-- An emerging cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
+- I am an emerging cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
 
 - I am [ISC² Certified in Cybersecurity](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url)
 
