@@ -10,14 +10,14 @@ order: 4
 
 ## Hi there, I'm Habeeb!
 
-- I am an emerging cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
+- An emerging cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
 
 - I am [ISC² Certified in Cybersecurity](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url)
 
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
 
-## 📕 Technical Writing
+## 📕 Blog
 
 <!-- BLOG-POST-LIST:START -->
 - [Steganography: Hiding Messages in Plain Sight](https://medium.com/@bl34chchig0/steganography-hiding-messages-in-plain-sight-d237ac8097b3)
