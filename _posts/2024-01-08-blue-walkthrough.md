@@ -16,7 +16,6 @@ tags: [nmap,msfconsole,manual exploit,eternal blue,ms-17,meterpreter,metasploit]
 nmap -T4 -A -p- -oA /home/kali/Blue/nmap 10.0.2.8
 ```
 
-
 ```bash
 # Nmap 7.94SVN scan initiated Mon Jan  8 04:19:19 2024 as: nmap -T4 -A -p- -oA /home/kali/Blue/nmap 10.0.2.8
 Nmap scan report for 10.0.2.8
