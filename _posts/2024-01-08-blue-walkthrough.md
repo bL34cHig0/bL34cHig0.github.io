@@ -2,6 +2,8 @@
 layout: post
 title: Blue - Walkthrough
 date: 2024-01-08 00:00 +0000
+categories: [CTF]
+tags: [nmap,msfconsole,manual exploit,eternal blue,ms-17,meterpreter,metasploit]
 ---
 # Scanning & Enumeration
 
