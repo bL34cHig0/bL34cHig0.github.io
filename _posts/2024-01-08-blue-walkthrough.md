@@ -5,6 +5,9 @@ date: 2024-01-08 00:00 +0000
 categories: [CTF, Others]
 tags: [nmap,msfconsole,manual exploit,eternal blue,ms-17,meterpreter,metasploit]
 ---
+
+![eternalblue](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0753f808-2932-457b-878b-496bbfa2a582/d3amo06-a791928b-c0cc-4405-8934-f4adb24495ca.png/v1/fit/w_640,h_480,q_70,strp/bluescreen_by_yanomami_d3amo06-375w-2x.jpg)
+
 # Scanning & Enumeration
 
 ## Nmap
@@ -76,7 +79,7 @@ Findings:
 
 ![enumeration](/assets/img/enumeration.png)
 
-## Msfconsole: smb version confirmation
+## Metasploit: SMB version confirmation
 
 ```bash
 msf6 auxiliary(scanner/smb/smb_version) > set rhosts 10.0.2.8
