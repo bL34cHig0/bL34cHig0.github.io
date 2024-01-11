@@ -11,7 +11,7 @@ tags: [nmap,msfconsole,manual exploit,eternal blue,ms-17,meterpreter,metasploit]
 # Summary
 
 This machine is a replicate of the well known box called `Blue` on **TryHackme** and **Hack The Box**. 
-It was created by **TCM Security** for their Practical Ethical Hacking course and the experience is more **practical** rather than ctf. 
+It was created by **TCM Security** for their Practical Ethical Hacking course and the experience is more **practical** rather than ctf oriented. 
 
 # Scanning & Enumeration
 
