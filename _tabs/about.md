@@ -19,7 +19,7 @@ order: 4
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
 
-## 📕 Blog
+## 📕 Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 - [Steganography: Hiding Messages in Plain Sight](https://medium.com/@bl34chchig0/steganography-hiding-messages-in-plain-sight-d237ac8097b3)
