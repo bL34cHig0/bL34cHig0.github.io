@@ -2,7 +2,7 @@
 title: Linux Privilege Escalation
 date: 2023-12-27 
 categories: [Notes, Linux, Privilege Escalation]
-tags: [Linux,privilege escalation,manual checks,enumeration,]
+tags: [linux,privilege escalation,manual checks,enumeration,]
 comments: false
 ---
 
