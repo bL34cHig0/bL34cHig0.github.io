@@ -191,7 +191,7 @@ of these folders `%WINDIR%\system32\spool\drivers\x64\3\` folder along with DLLs
 - The attacker might even use `Mimikatz` to perform the attack, in this case, a print driver named ‘QMS 810’ will be
 created. This can be detected by logging the registry changes (e.g., Sysmon ID 13).
 - Search for DLLs that are part of the proof-of-concept codes that were made public, 
-such as `MyExploit.dll`, `evil.dll`, `addCube.dll`, rev.dll, rev2.dll, main64.dll, mimilib.dll. If they're present on 
+such as `MyExploit.dll`, `evil.dll`, `addCube.dll`, `rev.dll`, `rev2.dll`, `main64.dll`, `mimilib.dll`. If they're present on 
 the endpoint, you can find them with Event ID 808 in Microsoft-Windows-PrintService.
 
 **Note**: You can read up on [Splunk](https://www.splunk.com/en_us/blog/security/i-pity-the-spool-detecting-printnightmare-cve-2021-34527.html)'s 
