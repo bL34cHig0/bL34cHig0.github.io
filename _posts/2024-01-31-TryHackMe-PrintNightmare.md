@@ -9,10 +9,12 @@ tags: [thm,nmap,windows,printnightmare,print spooler,logs,event viewer,metasploi
 
 ## Introduction
 
-This box covers the vulnerability known as PrintNightmare [`(CVE-2021-1675)`](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675) 
+This [Tryhackme](https://tryhackme.com/room/printnightmarehpzqlp8) box covers the vulnerability known as PrintNightmare [`(CVE-2021-1675)`](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1675) 
 and [`(CVE-2021-34527)`](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527). The attack is a 
 post compromise attack. Which means that we must have compromised a user account and gotten their credentials, in order
 for the attack to be successful.
+
+### What is PrintNightmare?
 
 PrintNightmare vulnerability is "a remote code execution vulnerability that occurs when the Windows `Print Spooler` 
 service improperly performs privileged file operations. An attacker who successfully exploited this vulnerability
