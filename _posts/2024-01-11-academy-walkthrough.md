@@ -240,7 +240,7 @@ The password is `student` and we used it to login to the online course registrat
 
 ![login](/assets/img/online_portal_login.png)
 
-In the `My Profile` tab, there is a file upload functionality that accepts other file extenstion other than jpeg or png. Therefore it is susceptable to **file upload** vulnerable and we tested it out by uploading a php reverse shell script. Note that the server runs a `phpmyadmin` database manager in the backend.
+In the `My Profile` tab, there is a file upload functionality that accepts other file extenstion other than jpeg or png. Therefore it is susceptible to **file upload** vulnerability and we tested it out by uploading a php reverse shell script. Note that the server runs a `phpmyadmin` database manager in the backend.
 
 File upload vulnerability is when a web server allows users to upload files to its filesystem without sufficiently validating things like their name, type, contents, or size. Learn more [here](https://portswigger.net/web-security/file-upload)
 
