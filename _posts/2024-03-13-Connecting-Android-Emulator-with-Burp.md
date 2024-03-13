@@ -1,0 +1,80 @@
+---
+title: Connecting an Android Emulator with Burp Suite
+date: 2024-03-13 
+categories: [Notes, Pentest]
+tags: [android,burp,burp suite,proxy,android studio,android pentesting]
+comments: false
+---
+
+# TLDR
+
+This documentation is a guide on how to successfully connect an android emulator proxy with burp suite for 
+Android Penetration Testing. The reason for this is that the official documentation for android studio and most 
+YouTube tutorials on how to connect an android emulator with burp suite are a bit implicit. 
+
+## Requirements
+
+-	Android Studio (Any android emulator)
+-	Burp Suite (Community Edition or Professional)
+
+**Note**: This tutorial is demonstrated with **Android Studio Hedgehog | 2023.1.1 Patch 2** and **Burp Suite Community Edition**.
+ 
+## Step 1: Create a Virtual Device
+
+Navigate to the hamburger on the top left of **android studio** > **Tools** > **Device Manager**
+
+![img.png](../assets/img/img.png)
+
+Then click on the plus **(+)** sign on device manager > **Phone** > **select the device you want** > **Next** > **select a system image** > **Next** > **Finish**.
+
+![img.png](../assets/img/img2.png)
+
+![img.png](../assets/img/img3.png)
+
+## Step 2: Create a New Proxy Listener in Burp Suite
+
+Create a new proxy listener by navigating to Burp **Settings** > **Proxy** > **Proxy listeners** > **Add** > **Binding** > enter a port in **“Bind to port”** > select **“specific address”** > **select your host ip address in the drop down** > **OK**. 
+
+![img.png](../assets/img/img4.png)
+
+![img.png](../assets/img/img5.png)
+
+Then click on **import / export CA certificate** > **certificate in DER format** > **Next** > **select file** > **choose a location to install burp certificate (use a “.crt” file extension to save it)** > **Next**. 
+This will generate a burp certificate which will be used on the android emulator.
+
+![img.png](../assets/img/img6.png)
+
+![img.png](../assets/img/img7.png)
+
+## Step 3: Install Burp Certificate on the Android Emulator
+
+Cold boot the newly created android emulator and drag/drop the burp certificate exported to your host operating system to the android emulator. 
+Then navigate to **Settings** on the android emulator and search for **“Install certificates”** in the search bar. Select the one for **Wi-Fi** > **Install certificates** > **select the burp certificate** > **name it** > **OK**.
+
+![img.png](../assets/img/img8.png)
+
+![img.png](../assets/img/img9.png)
+
+![img.png](../assets/img/img10.png)
+
+Lastly, navigate to the **Wi-Fi settings** of the Android emulator and select the **edit icon** (a pen on the top right). Set the Proxy to **“Manual”**, Proxy hostname to **“your-host-os-ip-address”**, and the Proxy port to the **same port set on burp listener**.
+
+![img.png](../assets/img/img11.png)
+
+![img.png](../assets/img/img12.png)
+
+## Step 4: Configure the Android Emulator Proxy Setting
+
+Click on more (the **three dots at the bottom of the device**) to open up **“Extended Controls”**.
+
+![img.png](../assets/img/img13.png)
+
+In Extended Controls, select **Settings** > **Proxy** > **Manual proxy configuration**. Then set the Host name to your **“host-os-ip-address”**, Port number to the **same port on burp listener**. Then click **“Apply”**. A success Proxy status should be displayed.
+
+![img.png](../assets/img/img14.png)
+
+## Step 5: Verify that traffic is being intercepted by Burp
+
+Navigate to Proxy and turn on intercept. On the android emulator, search for anything on a web browser and the traffic should be intercepted by burp.
+
+![img.png](../assets/img/img15.png)
