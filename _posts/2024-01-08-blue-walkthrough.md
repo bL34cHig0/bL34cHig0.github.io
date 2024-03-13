@@ -10,7 +10,7 @@ tags: [nmap,msfconsole,manual exploit,eternal blue,ms-17,meterpreter,metasploit]
 
 # Summary
 
-This machine is a replicate of the well known box called `Blue` on **TryHackme** and **Hack The Box**. 
+This machine is a replica of the well known box called `Blue` on **TryHackme** and **Hack The Box**. 
 It was created by **TCM Security** for their Practical Ethical Hacking course and the experience is more **practical** rather than ctf oriented. 
 
 # Scanning & Enumeration
@@ -75,7 +75,7 @@ OS and Service detection performed. Please report any incorrect results at https
 
 Findings:
 
-- From our nmap scan, port `139` and `445` (SMB) are the only ports that are imperative for us to go after.
+- From our nmap scan, port `139` and `445` (SMB) are the only ports imperative to go after for now.
 
 - Target is running `Microsoft Windows 7 2008 8.1`
 
