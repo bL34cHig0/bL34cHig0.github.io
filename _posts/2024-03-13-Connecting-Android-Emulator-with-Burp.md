@@ -6,6 +6,8 @@ tags: [android,burp,burp suite,proxy,android studio,android pentesting]
 comments: false
 ---
 
+![android](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5fb6ca6a-45f4-4cb7-9641-7bb8b493257b/d6i5k0j-00197d59-b7a5-4bcc-868b-33624afb3dec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmYjZjYTZhLTQ1ZjQtNGNiNy05NjQxLTdiYjhiNDkzMjU3YlwvZDZpNWswai0wMDE5N2Q1OS1iN2E1LTRiY2MtODY4Yi0zMzYyNGFmYjNkZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8Kx9ljGvHdLSQwD4UcaAM9mC9rlaheioDKif0-LvBYM)
+
 # TLDR
 
 This documentation is a guide on how to successfully connect an android emulator proxy with burp suite for 
