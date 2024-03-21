@@ -17,7 +17,7 @@ YouTube tutorials on how to connect an android emulator with burp suite are a bi
 -	Android Studio (Any android emulator)
 -	Burp Suite (Community Edition or Professional)
 
-**Note**: This tutorial is demonstrated with **Android Studio Hedgehog | 2023.1.1 Patch 2** and **Burp Suite Community Edition**.
+**Note**: This tutorial is demonstrated with **Android Studio Hedgehog 2023.1.1 Patch 2** and **Burp Suite Community Edition**.
  
 ## Step 1: Create a Virtual Device
 
