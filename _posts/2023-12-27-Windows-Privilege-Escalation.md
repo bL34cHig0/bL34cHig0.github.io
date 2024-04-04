@@ -105,11 +105,11 @@ Get-LocalGroupMember Administrators | ft Name, PrincipalSource
 > Get Domain Controller
 
 ```powershell
-nltest /DCLIST:DomainName
+nltest /DCLIST:<Domain-Name>
 ```
 
 ```powershell
-nltest /DCNAME:DomainName
+nltest /DCNAME:<Domain-Name>
 ```
 
 ## Network Enumeration
