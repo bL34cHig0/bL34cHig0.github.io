@@ -40,7 +40,7 @@ order: 4
 VOLUNTEER EXPERIENCE
 -----------------------------------------------------------------------------------
 FEHRIS.COM                                                               CAIRO, EGYPT
-Python Notification Service Developer                                JULY 2023 – PRESENT
+Python Notification Service Developer                                JULY 2023 – FEB 2024
 ● Developed and streamlined the python code for 7 consumer queues in the notification
 service architecture
 ● Collaborated with the back-end developer to facilitate debugging of the consumer 
@@ -86,7 +86,7 @@ TECHNICAL SKILLS
 -----------------------------------------------------------------------------------
 ● Scripting languages: Python, Bash
 ● Penetration Testing Tools: Metasploit, Nmap, Burp Suite, Hashcat, 
-Impacket, Wireshark
+Impacket, Postman
 ● Operating Systems: Kali Linux, Windows 10, Windows Server 2019
 ● Microservice Software: RabbitMQ
 ● DevOps Tools: Git, GitHub, Notion
@@ -106,10 +106,10 @@ EDUCATION
 CAPE BRETON UNIVERSITY                                              NOVA SCOTIA, CANADA
 Bachelor of Technology Information in Network Management            SEP 2018 – JUNE 2022
 ● Awards: Recipient of 30% Academic Merit Scholarship from 2018-2021
-● CGPA: 3.9
+● CGPA: 3.9/4
 CANADIAN INTERNATIONAL COLLEGE                                          CAIRO, EGYPT
 Bachelor of Information Technology in Network Management            SEP 2018 – JUNE 2022
 ● Awards & Honors: Recipient of 30% Academic Merit Scholarship from 2018-2021,
 Top Five Best Achievers Till FA 21/22
-● CGPA: 3.43
+● CGPA: 3.43/4
 ```
