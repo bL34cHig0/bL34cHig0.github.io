@@ -22,6 +22,7 @@ order: 4
 ## 📕 Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Active Directory Explained: Part 3 – Kerberos Authentication Protocol](https://blog.cyberplural.com/active-directory-explained-part-3-kerberos-authentication-protocol/)
 - [Steganography: Hiding Messages in Plain Sight](https://medium.com/@bl34chchig0/steganography-hiding-messages-in-plain-sight-d237ac8097b3)
 - [Social Engineering #2: Recognizing and Defending against common Phishing attacks](https://cysed.org/ncsam23-social-engineering-2/)
 - [Social Engineering #1: The Sneaky Tactics Targeting Everyday People](https://cysed.org/ncsam23-social-engineering-1/)
