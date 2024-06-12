@@ -12,7 +12,7 @@ order: 4
 
 - I am an emerging cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
 
-- I am currently a penetration tester intern at [CyberPlural](https://cyberplural.com/)
+- I am currently a jr. penetration tester at [CyberPlural](https://cyberplural.com/)
 
 - I am [ISC2 Certified in Cybersecurity](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url)
 
