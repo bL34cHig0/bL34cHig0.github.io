@@ -10,11 +10,11 @@ order: 4
 
 ## Hi there, I'm Habeeb!
 
-- I am an emerging cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
+- I am a cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
 
 - I am currently a jr. penetration tester at [CyberPlural](https://cyberplural.com/)
 
-- I am [ISC2 Certified in Cybersecurity](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url)
+- I hold the [PJPT](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/121637350?key=e218e8959da3aab09ee8669236f94b6d18baaef6e5f80c161849de14ac71373a) and ISC2 [CC](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url) certification
 
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
