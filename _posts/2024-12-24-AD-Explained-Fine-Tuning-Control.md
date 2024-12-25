@@ -6,7 +6,8 @@ tags: [active directory,security,controls,security controls,hardening,windows,ne
 comments: true
 ---
 
-![img.png](../assets/img/ad.png)
+![img.png](../assets/img/ad2.png)
+_image credit: Iperius_
 
 
 Highly privileged accounts (Domain Admins, Administrators, Enterprise Admins,
