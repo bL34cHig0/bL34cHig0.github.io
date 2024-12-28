@@ -18,6 +18,10 @@ order: 4
 
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
+## Presentations
+
+- [Unmasking Cyber Threats An Offensive Security Approach for Nigerian Businesses](https://youtu.be/qPk6HST5a-s?si=B0P6iPy8r9DBROxG): Demonstrated and explained how limit overrun race condition can be exploited in web applications in the fintech space in Nigeria.
+
 
 ## 📕 Blog Posts
 
