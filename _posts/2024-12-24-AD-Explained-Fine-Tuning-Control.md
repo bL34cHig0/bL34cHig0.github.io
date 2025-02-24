@@ -27,3 +27,4 @@ logon or run as, because the credentials for these accounts will be stored on th
 workstation.
 
 ➡️ [Read more here...](https://blog.cyberplural.com/active-directory-explained-part-4-fine-tuning-controls-for-privileged-accounts/)
+
