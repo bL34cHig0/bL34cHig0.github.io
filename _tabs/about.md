@@ -26,6 +26,8 @@ order: 4
 ## 📕 Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Leveraging “AlwaysInstallElevated” for Windows Privilege Escalation](https://blog.cyberplural.com/leveraging-alwaysinstallelevated-for-windows-privilege-escalation/)
+- [Security Groups vs NACLs in AWS: Key Differences Explained](https://medium.com/@bl34chchig0/security-groups-vs-nacls-in-aws-key-differences-explained-d4ac767c0591)
 - [IoT Meets Cloud: The Perfect Partnership](https://medium.com/@bl34chchig0/iot-meets-cloud-the-perfect-partnership-d18440bb7e11)
 - [Active Directory Explained: Part 3 – Kerberos Authentication Protocol](https://blog.cyberplural.com/active-directory-explained-part-3-kerberos-authentication-protocol/)
 - [Steganography: Hiding Messages in Plain Sight](https://medium.com/@bl34chchig0/steganography-hiding-messages-in-plain-sight-d237ac8097b3)
