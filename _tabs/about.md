@@ -14,7 +14,7 @@ order: 4
 
 - I am currently a penetration tester at [CyberPlural](https://cyberplural.com/)
 
-- I hold the [PJPT](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/121637350?key=e218e8959da3aab09ee8669236f94b6d18baaef6e5f80c161849de14ac71373a) and ISC2 [CC](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url) certification
+- I hold the [PJPT](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/121637350?key=e218e8959da3aab09ee8669236f94b6d18baaef6e5f80c161849de14ac71373a), [PHDA](https://pdf.credential.net/kzej6wqc_1741257041420.pdf), and ISC2 [CC](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url) certification
 
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
