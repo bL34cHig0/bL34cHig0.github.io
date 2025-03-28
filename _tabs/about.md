@@ -22,6 +22,12 @@ order: 4
 - [Through the Hacker's Lens - 2024 Learnings and 2025 Cybersecurity Vision 2025](https://youtu.be/7OEAbuWATRI?si=Y1mRY6sFVjuYv3gZ): Discussed top vulnerabilities identified in 2024 IT infrastructures, exploitation methods, remediation, and predictions for offensive security trends in 2025.
 - [Unmasking Cyber Threats An Offensive Security Approach for Nigerian Businesses](https://youtu.be/qPk6HST5a-s?si=B0P6iPy8r9DBROxG): Demonstrated and explained how limit overrun race condition can be exploited in web applications in the fintech space in Nigeria.
 
+## Live Streams
+- [Hack Wednesday Episode 1 Web LLM attacks](https://youtu.be/S70O1k5_J_Y?si=PIF_hrreJmbtVfZG)
+- [Hack Wednesday Episode 2 Web LLM attacks](https://www.youtube.com/live/BGmvjwqOmXQ?si=AKItPrxq_pRdr-7E)
+- [Hack Wednesday Episode 3 Web LLM attacks](https://www.youtube.com/live/rQZezE_TZaA?si=w1hhp1Tm7WNl6Fii)
+- [Hack Wednesday Episode 4 Web LLM attacks](https://www.youtube.com/live/e76lUwbwooc?si=CJ0odFW5AWB6_W_T)
+
 
 ## 📕 Blog Posts
 
