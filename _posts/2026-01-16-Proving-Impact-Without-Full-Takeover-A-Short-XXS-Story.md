@@ -1,5 +1,5 @@
 ---
-title: Proving Impact Without Full Takeover: A Short XXS Story
+title: Proving Impact Without Full Takeover - A Short XXS Story
 date: 2026-01-19
 categories: [Web App, XXS, AppSec]
 tags: [xxs,webapp,appsec,pentest,owasp,escalation,impact]
