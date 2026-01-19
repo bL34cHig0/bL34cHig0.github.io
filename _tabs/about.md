@@ -10,11 +10,9 @@ order: 4
 
 ## Hi there, I'm Habeeb!
 
-- I am a cybersecurity professional with a keen interest in `penetration testing` & `red teaming`. 
+- An offensive security engineer.
 
-- I am currently a penetration tester at [CyberPlural](https://cyberplural.com/)
-
-- I hold the [ASCP](https://www.credly.com/badges/f052f458-d306-49a9-88fb-459d4e3a0ccd/public_url), [PJPT](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/121637350?key=e218e8959da3aab09ee8669236f94b6d18baaef6e5f80c161849de14ac71373a), [PHDA](https://pdf.credential.net/kzej6wqc_1741257041420.pdf), and ISC2 [CC](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url) certification
+- I hold the [ASCP](https://www.credly.com/badges/f052f458-d306-49a9-88fb-459d4e3a0ccd/public_url), [PJPT](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/121637350?key=e218e8959da3aab09ee8669236f94b6d18baaef6e5f80c161849de14ac71373a), [PHDA](https://pdf.credential.net/kzej6wqc_1741257041420.pdf), and ISC2 [CC](https://www.credly.com/badges/69bd2d67-e575-45e2-90c8-ad1d832c98b7/public_url) certifications.
 
 - I started this journal to document my notes on `cybersecurity`, `ctf`, and `open source`.
 
@@ -34,6 +32,7 @@ order: 4
 - [Hack Wednesday Episode 4 Web LLM attacks](https://www.youtube.com/live/e76lUwbwooc?si=CJ0odFW5AWB6_W_T)
 - [Hack Wednesday Episode 6 Web LLM attacks](https://www.youtube.com/live/hLXa22Y2YTA?si=NgOiTH0dQueYLk-z)
 
+➡️ [more live streams...](https://www.youtube.com/@cyberplural2671/streams)
 
 ## 📕 Blog Posts
 
