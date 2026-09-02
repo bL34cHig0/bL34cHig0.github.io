@@ -1,21 +1,21 @@
 ---
-title: Proving Impact Without Full Takeover - A Short XXS Story
+title: Proving Impact Without Full Takeover - A Short XSS Story
 date: 2026-01-19
-categories: [Web App, XXS, AppSec]
-tags: [xxs,webapp,appsec,pentest,owasp,escalation,impact]
+categories: [Web App, XSS, AppSec]
+tags: [xss,webapp,appsec,pentest,owasp,escalation,impact]
 comments: true
 ---
 
 ## Prelude
 
 Sometime during the last quarter of 2025, I led a web app pentest engagement for an internal application, and I stumbled 
-across a reflected XXS vulnerability within a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor used for making complaints. 
+across a reflected XSS vulnerability within a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) editor used for making complaints. 
 
-Basic XXS is often times dismissed as a low severity vulnerability and as an offensive security engineer, showing 
+Basic XSS is often times dismissed as a low severity vulnerability and as an offensive security engineer, showing 
 impact is imperative when communicating findings to the development or triage team.
 
 Therefore, I was fully aware that reporting this vulnerability without showing impact would likely be futile. So I 
-thought of ways in which the reflected XXS could be escalated to demonstrate high impact.
+thought of ways in which the reflected XSS could be escalated to demonstrate high impact.
 
 In this post, I discuss how I chained a reflected XSS within a WYSIWYG editor’s link feature with a phishing email to 
 exfiltrate the cookie of the recipient.
@@ -27,7 +27,7 @@ or misuse of the concepts discussed in this post, without explicit permission is
 
 ## Why a Final Pass Matters
 
-Prior to discovering the reflected XXS, I had pretty much tested every major functionality of the application. 
+Prior to discovering the reflected XSS, I had pretty much tested every major functionality of the application. 
 Nevertheless, I almost missed out on testing the complaint email functionality. It was very easy to overlook because 
 it was tucked away in an obscure corner of the interface.
 
@@ -42,12 +42,12 @@ and thank God I did, because that decision ultimately proved critical to uncover
 Upon reaching the complaint functionality, I noticed that it uses a WYSIWYG editor for user input, and my first 
 instinct was to test the link feature for XSS or injection vulnerabilities.
 
-With just a basic XXS payload, the link field executed and reflected the payload in my browser. A valid 
+With just a basic XSS payload, the link field executed and reflected the payload in my browser. A valid 
 finding but as mentioned earlier, showing impact is key.
 
 ### PoC
 
-![xxs-1.png](../assets/img/xxs-1.png)
+![xss-1.png](../assets/img/xss-1.png)
 
 I decided to host a web server on my attacker machine and expose it externally through a secure tunnel using 
 [LocalXpose](https://localxpose.io/). 
@@ -57,9 +57,9 @@ cookie exfiltration, I crafted a simple phishing email.
 Unfortunately, the payload worked, but only the recipient's `twk_uuid` cookie was exfiltrated. The session cookie 
 was not, because the `HttpOnly` flag was enabled.
 
-![xxs-3](../assets/img/xxs-3.png)
-![xxs-2](../assets/img/xxs-2.png)
-![xxs-4](../assets/img/xxs-4.png){: .center-image}
+![xss-3](../assets/img/xss-3.png)
+![xss-2](../assets/img/xss-2.png)
+![xss-4](../assets/img/xss-4.png){: .center-image}
 
 ## Closing Thoughts
 
@@ -75,6 +75,6 @@ that leaves no stone unturned. It also highlights where these kinds of bugs tend
 features that are easy to overlook but often worth a closer look.
 
 ### Resources
-- [Portswigger: XXS Prevention](https://portswigger.net/web-security/cross-site-scripting/preventing)
+- [Portswigger: XSS Prevention](https://portswigger.net/web-security/cross-site-scripting/preventing)
 - [OWASP: Cross Site Scripting Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
 
